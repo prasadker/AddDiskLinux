@@ -1,0 +1,129 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "clusterLocation": {
+            "value": "southcentralus"
+        },
+        "clusterName": {
+            "value": "lintmpl"
+        },
+        "nt0applicationStartPort": {
+            "value": 20000
+        },
+        "nt0applicationEndPort": {
+            "value": 30000
+        },
+        "nt0ephemeralStartPort": {
+            "value": 49152
+        },
+        "nt0ephemeralEndPort": {
+            "value": 65534
+        },
+        "nt0fabricTcpGatewayPort": {
+            "value": 19000
+        },
+        "nt0fabricHttpGatewayPort": {
+            "value": 19080
+        },
+        "subnet0Name": {
+            "value": "Subnet-0"
+        },
+        "subnet0Prefix": {
+            "value": "10.0.0.0/24"
+        },
+        "computeLocation": {
+            "value": "southcentralus"
+        },
+        "publicIPAddressName": {
+            "value": "lintmpl-PubIP"
+        },
+        "publicIPAddressType": {
+            "value": "Dynamic"
+        },
+        "vmStorageAccountContainerName": {
+            "value": "vhds"
+        },
+        "adminUserName": {
+            "value": "linadmin"
+        },
+        "adminPassword": {
+            "value": "L!nux123"
+        },
+        "virtualNetworkName": {
+            "value": "VNet-lintmpl"
+        },
+        "addressPrefix": {
+            "value": "10.0.0.0/16"
+        },
+        "dnsName": {
+            "value": "lintmpl"
+        },
+        "nicName": {
+            "value": "NIC-lintmpl"
+        },
+        "lbName": {
+            "value": "LB-lintmpl"
+        },
+        "lbIPName": {
+            "value": "LBIP-lintmpl"
+        },
+        "overProvision": {
+            "value": "false"
+        },
+        "vmImagePublisher": {
+            "value": "Canonical"
+        },
+        "vmImageOffer": {
+            "value": "UbuntuServer"
+        },
+        "vmImageSku": {
+            "value": "16.04-LTS"
+        },
+        "vmImageVersion": {
+            "value": "latest"
+        },
+        "loadBalancedAppPort1": {
+            "value": 80
+        },
+        "loadBalancedAppPort2": {
+            "value": 8080
+        },
+        "loadBalancedAppPort3": {
+            "value": 8081
+        },
+        "loadBalancedAppPort4": {
+            "value": 8082
+        },
+        "clusterProtectionLevel": {
+            "value": "None"
+        },
+        "storageAccountType": {
+            "value": "Standard_LRS"
+        },
+        "supportLogStorageAccountType": {
+            "value": "Standard_LRS"
+        },
+        "supportLogStorageAccountName": {
+            "value": "sflogslintmpl5745"
+        },
+        "applicationDiagnosticsStorageAccountType": {
+            "value": "Standard_LRS"
+        },
+        "applicationDiagnosticsStorageAccountName": {
+            "value": "sfdglintmpl8194"
+        },
+        "nt0InstanceCount": {
+            "value": 3
+        },
+        "vmNodeType0Name": {
+            "value": "lin"
+        },
+        "vmNodeType0Size": {
+            "value": "Standard_D2_v3"
+        },
+        "diskSize": {
+            "value": 30
+        }
+    }
+}

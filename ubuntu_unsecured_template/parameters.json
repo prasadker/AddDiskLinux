@@ -1,0 +1,75 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "clusterName": {
+            "value": "lintmpl"
+        },
+        "clusterLocation": {
+            "value": "southcentralus"
+        },
+        "computeLocation": {
+            "value": "southcentralus"
+        },
+        "adminUserName": {
+            "value": "linadmin"
+        },
+        "adminPassword": {
+            "value": "L!nux123"
+        },
+        "nicName": {
+            "value": "NIC-lintmpl"
+        },
+        "publicIPAddressName": {
+            "value": "lintmpl-PubIP"
+        },
+        "dnsName": {
+            "value": "lintmpl"
+        },
+        "virtualNetworkName": {
+            "value": "VNet-lintmpl"
+        },
+        "lbName": {
+            "value": "LB-lintmpl"
+        },
+        "lbIPName": {
+            "value": "LBIP-lintmpl"
+        },
+        "applicationDiagnosticsStorageAccountName": {
+            "value": "sfdglintmpl8194"
+        },
+        "supportLogStorageAccountName": {
+            "value": "sflogslintmpl5745"
+        },        
+        "vmImageSku": {
+            "value": "16.04-LTS"
+        },
+        "vmImageVersion": {
+            "value": "latest"
+        },
+        "vmImagePublisher": {
+            "value": "Canonical"
+        },
+        "vmImageOffer": {
+            "value": "UbuntuServer"
+        },
+        "nt0ephemeralStartPort": {
+            "value": 49152
+        },
+        "nt0ephemeralEndPort": {
+            "value": 65534
+        },
+        "nt0applicationStartPort": {
+            "value": 20000
+        },
+        "nt0applicationEndPort": {
+            "value": 30000
+        },
+        "nt0fabricTcpGatewayPort": {
+            "value": 19000
+        },
+        "nt0fabricHttpGatewayPort": {
+            "value": 19080
+        }
+    }
+}
